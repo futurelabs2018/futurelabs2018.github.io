@@ -1,6 +1,6 @@
 ---
 title: Talking About Community Governance
-featured: 
+featured: images/pic02.jpg
 layout: post
 ---
 
