@@ -1,5 +1,5 @@
 ---
-title: Talking About Community Governance
+title: Talking about community governance
 featured: images/pic02.jpg
 layout: post
 ---
