@@ -3,7 +3,7 @@
 <div id="sidebar" class="4u">
 	<section>
 		<header>
-			<h2>Excellent Articles</h2>
+			<h2>Excellent Posts</h2>
 		</header>
 		<div class="row">
 			<section class="6u">
@@ -34,7 +34,7 @@
 		{% for post in site.posts offset: 0 limit: 5 %}
 			<li>
 				<p class="posted">{{ post.date | date_to_string }}  |  (10 )  Comments</p>
-				<h4>{{ page.title }}</h4>
+				<h4>{{ post.title }}</h4>
 				<p><a href="{{ site.prefix }}{{ post.url }}">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</a></p>
 			</li>
 		{% endfor %}
